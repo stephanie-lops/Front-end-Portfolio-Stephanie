@@ -1,3 +1,3 @@
-# Photo-Portipolio-Stephanie-Lopes
+# Photographer-Portipolio-Stephanie-Lopes
 
 < Under Construction >
