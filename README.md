@@ -103,4 +103,4 @@ Os principal caminho para alcançar as fotos é:
 ```
 Home > Album do Portfolio > Clique em um álbum > Fotos
 ```
-Todas as demais páginas podem ser facilmente acessadas pelo menu sopreposto, que está disponível no canto direito superior em todas as páginas.
+Todas as demais páginas podem ser facilmente acessadas pelo menu sopreposto, que está disponível no canto direito superior em todas as páginas, ou pelo Footer, presente no final de todas as páginas.
