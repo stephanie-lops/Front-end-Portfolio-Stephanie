@@ -12,8 +12,16 @@ Figma: https://www.figma.com/design/hwFy6pRp8jupjQUNIQofFF/MVP?node-id=47-2&node
 
 ## Como executar
 
-(Under Construction)
+```
+npm install
 
+```
+
+
+```
+npm start
+
+```
 
 ## Instruções de uso
 
