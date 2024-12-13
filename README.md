@@ -1,8 +1,6 @@
-# Photographer-Portfolio-Stephanie-Lopes
-
 ------- PORTUGUESE ---------
 
-# [Client] Portfolio: Stephanie Lopes Webpage
+# Photographer-Portfolio-Stephanie-Lopes
 ## Portfólio de fotografia analógica
 **Autor: Stephanie Lopes**
 
