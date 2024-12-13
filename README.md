@@ -13,6 +13,7 @@ Objetivo: Criação de website pessoal para divulgação de fotografias analógi
 O design da interface de usuário e o protótipo de interatividade entre as páginas e recursos podem ser acessados pelo link a seguir do Figma, ferramenta de design de interface.
 
 Figma: https://www.figma.com/design/hwFy6pRp8jupjQUNIQofFF/MVP?node-id=47-2&node-type=canvas&t=0zJBq6oVOJN5ug9U-0
+
 Para simulação das intereções no protótipo, utilizar as dimensões 1680 x 1100.
 
 ## Como Funciona
