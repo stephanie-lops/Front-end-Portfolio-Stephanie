@@ -18,7 +18,7 @@ public
 src
 
 E as sub pastas:
-
+```
 public
     - assets
         - images
@@ -30,7 +30,7 @@ src
     - assets
     - components
     - pages
-
+```
 Executar o comando de instalação
 
 ```
