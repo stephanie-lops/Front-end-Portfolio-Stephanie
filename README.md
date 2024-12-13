@@ -20,14 +20,23 @@ src
 E as sub pastas:
 
 public
-    
+    - assets
+        - images
+            - birthday
+            - brasil_life
+            - cultural_events
+            - japan_life
 src
+    - assets
+    - components
+    - pages
 
+Executar o comando de instalação
 
 ```
 npm install
 ```
-
+Executar o comando de execução
 
 ```
 npm start
