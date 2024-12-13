@@ -12,15 +12,25 @@ Figma: https://www.figma.com/design/hwFy6pRp8jupjQUNIQofFF/MVP?node-id=47-2&node
 
 ## Como executar
 
+o projeto deve conter as pastas:
+
+public
+src
+
+E as sub pastas:
+
+public
+    
+src
+
+
 ```
 npm install
-
 ```
 
 
 ```
 npm start
-
 ```
 
 ## Instruções de uso
