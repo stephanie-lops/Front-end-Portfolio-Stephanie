@@ -64,9 +64,9 @@ Os dados que alimentam o portfólio, as fotografias usadas, estão no arquivo al
                 }
 ```
 Seguindo o padrão de númeração sequencial, onde coloquei os Xs nas últimas linhas.
-```
-Os dados são chamados pela página InicialPage.js, componentizados pelos arquivos Item.jsx e Portfolio,jsx e exibidos pela página PortfolioPage.js.
-```
+
+** Os dados são chamados pela página InicialPage.js, componentizados pelos arquivos Item.jsx e Portfolio,jsx e exibidos pela página PortfolioPage.js. **
+
 ## Como executar
 
 Para executar o projeto, primeiramente, deve conter as pastas listadas abaixo.
