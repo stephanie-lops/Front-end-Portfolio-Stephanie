@@ -39,6 +39,34 @@ MenuOverlay.jsx - Utilizado em todas as 5 páginas
 Portfolio.jsx - Utilizado em 2 páginas, para mostragem dos álbuns.
 ```
 
+Os dados que alimentam o portfólio, as fotografias usadas, estão no arquivo albunsCollection.json. A estrutura dos álbuns está definida na estrutura:
+```
+"albuns": [
+        {
+            "id": 1,
+            "title": "LIFE IN Japan",
+            "image": "/assets/images/japan_life/007.jpg",
+            "photos": [
+                {
+                    "src": "/assets/images/japan_life/001.jpg",
+                    "name": "Imagem 1"
+                },
+                {
+                    "src": "/assets/images/japan_life/002.JPG",
+                    "name": "Imagem 2"
+                },
+                            .
+                            .
+                            .
+                {
+                    "src": "/assets/images/ALBUM_X/FOTO_XXX.JPG",
+                    "name": "Imagem XXX"
+                }
+```
+Seguindo o padrão de númeração sequencial, onde coloquei os Xs nas últimas linhas.
+```
+Os dados são chamados pela página InicialPage.js, componentizados pelos arquivos Item.jsx e Portfolio,jsx e exibidos pela página PortfolioPage.js.
+```
 ## Como executar
 
 Para executar o projeto, primeiramente, deve conter as pastas listadas abaixo.
@@ -66,11 +94,11 @@ src
 
 Antes de executar, é necessário instalar o gerenciador de pacotes npm, o framework react-bootstrap e o pacote de estilos sass.
 
-Instalar do gerenciador de pacotes npm:
+Instalar o ambiente de execução Node.js:
 ```
 npm install
 ```
-Instalar o framework bootstrap:
+Instalar o framework React-bootstrap:
 ```
 npm install react--bootstrap bootstrap
 ```
