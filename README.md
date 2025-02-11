@@ -1,3 +1,133 @@
+------- ENGLISH ---------
+
+# Photographer-Portfolio-Stephanie-Lopes
+## Analog photography portfolio
+**Author: Stephanie Lopes
+
+This project is my final MVP of Sprint 2 of the Basic Full Stack Development course at PUC RIO, 2024.
+
+Objective: Creation of a personal website to promote analog photographs and to serve as a contact field for work partnerships. Using a personal website as a portfolio eliminates the need for generic portfolio websites and sends a message of greater professionalism and trust to clients and partners.
+
+The user interface design and the prototype of interactivity between pages and resources can be accessed through the following link from Figma, an interface design tool.
+
+Figma: https://www.figma.com/design/hwFy6pRp8jupjQUNIQofFF/MVP?node-id=47-2&node-type=canvas&t=0zJBq6oVOJN5ug9U-0
+
+To simulate interactions in the prototype, use the dimensions 1680 x 1100.
+
+##How it Works
+
+The project functions as a showcase of photographs, divided into albums, the presentation of the author of the photographs and a contact form.
+
+The project pages:
+```
+About.js - Page with information about the portfolio author
+AlbumDetails.js - Page to display all the photos in the albums
+ContactPage.js - Page with a form to contact the author
+InicialPage.js - Website home page
+PortfolioPage.js - Page with a list of all albums
+```
+And also, eight components:
+```
+Banner.jsx - Used on 2 pages and serves as a marketing call to action for clients and partners.
+ContactForm.jsx - Used on 1 page, for a contact form.
+FooterMenu.jsx - Used on all 5 pages.
+Header.jsx - Used on all 5 pages.
+HeroSection.jsx - Used on 1 page, to present the website.
+Item.jsx - Used on 2 pages, to create the albums card and the interactivity of clicking on the album and viewing the expanded album.
+MenuOverlay.jsx - Used on all 5 pages
+Portfolio.jsx - Used on 2 pages, to display the albums.
+```
+The data that feeds the portfolio, the photographs used, are in the albumsCollection.json file. The albums structure is defined in the following structure:
+```
+"albums": [
+{
+"id": 1,
+"title": "LIFE IN Japan",
+"image": "/assets/images/japan_life/007.jpg",
+"photos": [
+{
+"src": "/assets/images/japan_life/001.jpg",
+"name": "Image 1"
+},
+{
+"src": "/assets/images/japan_life/002.JPG",
+"name": "Image 2"
+},
+.
+.
+.
+{
+"src": "/assets/images/ALBUM_X/FOTO_XXX.JPG",
+"name": "Imagem XXX"
+}
+```
+Following the sequential numbering pattern, where I put the Xs in the last lines.
+
+**The data is called by the InicialPage.js page, componentized by the Item.jsx and Portfolio,jsx files and displayed by the PortfolioPage.js page.
+
+## How to run
+
+To run the project, first, it must contain the folders listed below.
+```
+public
+src
+```
+And the subfolders:
+```
+public
+- assets
+- images
+- birthday
+- brasil_life
+- cultural_events
+- japan_life
+src
+- assets
+- fonts
+- icons
+- images
+- components
+- pages
+```
+Before running, it is necessary to install the npm package manager, the react-bootstrap framework and the sass styles package.
+
+Install the Node.js runtime environment:
+```
+npm install
+```
+Install the React-bootstrap framework:
+```
+npm install react--bootstrap bootstrap
+```
+Install the sass package:
+```
+npm install sass
+```
+Run the application:
+```
+npm start
+```
+## Instructions for use
+
+After successfully running the project, you will be able to explore the website pages. The pages are:
+```
+1. Home
+2. Portfolio
+2.1 Album 1: "Life in Japan"
+2.2 Album 2: "Cultural Events"
+2.3 Album 3: "Birthday"
+2.4 Album 4: "Life in Brazil"
+3. About
+4. Contact
+5. Overlay menu (Access to other pages]
+```
+The main path to reach the photos is:
+```
+Home > Portfolio Album > Click on an album > Photos
+```
+All other pages can be easily accessed through the overlay menu, which is available in the upper right corner of all pages, or through the Footer, present at the end of all pages.
+
+
 ------- PORTUGUESE ---------
 
 # Photographer-Portfolio-Stephanie-Lopes
@@ -26,7 +156,6 @@ ContactPage.js - Página com formulário para contato com a autora
 InicialPage.js - Página inicial do website
 PortfolioPage.js - Página com a lista de todos os álbuns
 ```
-
 E também, oito componentes:
 ```
 Banner.jsx - Utilizado em 2 páginas e serve para chamada de marketing para cliente e parceiros.
