@@ -97,7 +97,7 @@ npm install
 ```
 Install the React-bootstrap framework:
 ```
-npm install react--bootstrap bootstrap
+npm install bootstrap react-bootstrap
 ```
 Install the sass package:
 ```
@@ -229,7 +229,7 @@ npm install
 ```
 Instalar o framework React-bootstrap:
 ```
-npm install react--bootstrap bootstrap
+npm install bootstrap react-bootstrap
 ```
 Instalar o pacote sass:
 ```
